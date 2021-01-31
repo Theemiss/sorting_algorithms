@@ -6,13 +6,12 @@
  */
 void bubble_sort(int *array, size_t size)
 {
-size_t stop,j, i;
+size_t j, i;
 int n;
 if (size < 2)
 return;
 for (i = 0; i < size - 1; i++)
 {
-stop = 0;
 for (j = 0; j < size - i - 1; j++)
 {
 if (array[j] > array[j + 1])
@@ -21,10 +20,7 @@ n = array[j];
 array[j] = array[j + 1];
 array[j + 1] = n;
 print_array(array, size);
-stop += 1;
 }
 }
-if (stop == 0)
-break;
 }
 }
