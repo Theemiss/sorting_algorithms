@@ -1,4 +1,4 @@
-# sorting_algorithms
+# Sorting Algorithms
 ### Description
 A collection of sorting algorithms implemented in C to see the advantages and disadvantages of each one of them
 
