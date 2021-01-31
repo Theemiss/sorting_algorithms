@@ -15,7 +15,7 @@ Creat your main file with specifc Requirment
 
 compile it with  
 
-`gcc 4.8.4 -Wall -Werror -Wextra -pedantic {File Name Based on the sort You want} print_array.c print_list.c` -o sort.  
+`gcc 4.8.4 -Wall -Werror -Wextra -pedantic {File Name Based on the sort You want} print_array.c print_list.c -o sort` .  
 You can then run it by invoking `./sort` in that same directory.  
 
 ## Bubble Sort
