@@ -19,7 +19,7 @@ typedef struct listint_s
 	struct listint_s *next;
 } listint_t;
 
-/** Given FUN prototye */
+/** Given FUN prototype */
 
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
